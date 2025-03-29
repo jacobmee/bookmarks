@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiTang Bookmarks</title>
+    <!-- Import Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+    
+        .container {
+            text-align: center;
+            background: #ffffff;
+            padding: 30px 50px;
+            border-radius: 15px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: row;
+            gap: 50px;
+        }
+    
+        .column {
+            flex: 1;
+            min-width: 200px; /* Set a minimum width for wider columns */
+        }
+    
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 25px;
+            color: #4CAF50;
+            font-weight: 700;
+        }
+    
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 15px;
+            color: #333;
+            font-weight: 600;
+        }
+    
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+    
+        li {
+            margin: 10px 0;
+        }
+    
+        a {
+            text-decoration: none;
+            color: #007BFF;
+            font-size: 1.1rem;
+            font-weight: 400;
+            transition: color 0.3s ease, transform 0.2s ease;
+        }
+    
+        a:hover {
+            color: #0056b3;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="column">
+            <h2>Services</h2>
+            <ul>
+                <li><a href="http://home.lan:5000" target="_blank">Kid Control</a></li>
+                <li><a href="http://www.mitang.me/" target="_blank">MiTang's Homepage</a></li>
+                <li><a href="http://home.lan:8880" target="_blank">Photos</a></li>
+                <li><a href="http://home.lan:3000" target="_blank">Redsea</a></li>
+                <li><a href="http://home.lan:9090" target="_blank">Prometheus</a></li>
+            </ul>
+        </div>
+        <div class="column">
+            <h2>Consoles</h2>
+            <ul>
+                <li><a href="http://ace.lan" target="_blank">ACE</a></li>
+                <li><a href="http://beta.lan" target="_blank">Beta</a></li>
+                <li><a href="http://192.168.0.11" target="_blank">GL-MT6000</a></li>
+                <li><a href="http://192.168.0.12" target="_blank">RedMi-AX6000</a></li>
+                <li><a href="http://192.168.0.1" target="_blank">ROS</a></li>
+                <li><a href="https://192.168.0.10" target="_blank">EXSI</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
