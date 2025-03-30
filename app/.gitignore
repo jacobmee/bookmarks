@@ -1,0 +1,7 @@
+.ftpconfig
+.DS_Store
+*.log
+images/
+token.file
+*.data
+.vscode/
